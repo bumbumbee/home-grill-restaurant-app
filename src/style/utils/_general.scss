@@ -1,0 +1,29 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    background: #ddd;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+* {
+    user-select: none;
+}
+
+.active-cat{
+    img {
+        transition: .2s;
+        height: 40px;
+        filter: grayscale(100%) brightness(3);
+    }
+    border: 2px solid $dark-red!important;
+    color: $dark-red!important;
+}
+.active-table{
+    border:2px solid $dark-red!important;
+    box-shadow: 10px 10px 15px grey;
+}

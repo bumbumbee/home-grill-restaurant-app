@@ -1,0 +1,78 @@
+.settings{
+    width:70%;
+    float: right;
+    margin-top:40px;
+    .controls{
+        border:2px solid transparent;
+        background: #000;
+        width:60%;
+        display: flex;
+        margin:25px 40px;
+        border-radius: 6px;
+        padding:5px 15px;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+    }
+    ul{
+        margin-top:20px;
+        width:100%;
+        margin-bottom:15px;
+        li{
+            background: $dark-grey;
+            color: #fff;
+            line-height:36px;
+            margin-top:10px;
+            font-weight:300;
+            padding:0 15px;
+            text-align: left;
+            span{
+                float: right;
+            }
+            .delete{
+                cursor: pointer;
+                margin-left:20px;
+                transition: .2s;
+                &:hover{
+                    color: $dark-red;
+                }
+            }
+        }
+    }
+    h3{
+        margin-left:40px;
+        margin-top:40px;
+        font-size:20px;
+        text-align: left;
+    }
+    input{
+        width:30%;
+        font-weight:300;
+        display: inline-block;
+        background: transparent;
+        border:1px solid #fff;
+        height:26px;
+        box-sizing: border-box;
+        font-size:16px;
+        color: #fff;
+        border-right:none;
+        outline: none;
+        padding-left:4px;
+        &::placeholder{
+            color: #888;
+        }
+    }
+    .btn{
+        width:40%;
+        box-sizing: border-box;
+        display: inline-block;
+        color: #fff;
+        font-weight:300;
+        line-height:24px;
+        padding:0 10px;
+        border:1px solid #fff;
+        background: transparent;
+    }
+    li{
+        color: #fff;
+    }
+}
